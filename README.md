@@ -233,4 +233,34 @@ civicmind-ai/
   app.js       (optional)
 README.md (optional)
 
+Cloudflare 
+civicmind-ai/
+│
+├── frontend/                 # Next.js app (Cloudflare Pages)
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── environment.js
+│   │   ├── community.js
+│   │   └── productivity.js
+│   ├── public/
+│   ├── styles/
+│   │   └── globals.css
+│   ├── package.json
+│   └── next.config.js
+│
+├── worker/                   # Cloudflare Worker API
+│   ├── src/
+│   │   ├── environment.js
+│   │   ├── community.js
+│   │   ├── productivity.js
+│   │   └── router.js
+│   ├── wrangler.toml
+│   └── package.json
+│
+├── data/                     # Synthetic datasets
+│   ├── environment.json
+│   ├── resources.json
+│   └── tasks.json
+│
+└── README.md
 
