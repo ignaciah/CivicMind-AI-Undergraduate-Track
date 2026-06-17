@@ -226,4 +226,11 @@ civicmind-ai/
 │   └── sample_tasks.json
 │
 └── README.md
+/civicmind-ai
+/ (root)
+  index.html
+  Style.css  (optional)
+  app.js       (optional)
+README.md (optional)
+
 
